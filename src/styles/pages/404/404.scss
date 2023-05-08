@@ -1,8 +1,9 @@
 .error {
-
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 150px;
+
     .error404 {
         font-weight: 700;
         font-size: 288px;
@@ -16,5 +17,8 @@
 
     .home-link {
         margin-top: 180px;
+        color: #FF6060;
+        border-bottom: #FF6060 solid 1px;
+        font-size: 18px;
     }
 }
