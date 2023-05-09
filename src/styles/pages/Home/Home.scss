@@ -1,8 +1,23 @@
+// .housing-list {
+//     display: flex;
+//     flex-wrap: wrap;
+//     padding: 40px 30px 20px 30px;
+//     justify-content: center;
+// }
+
+.house-container {
+    margin-top: 30px;
+}
+
 .housing-list {
     display: flex;
     flex-wrap: wrap;
-    padding: 40px 30px 20px 30px;
     justify-content: center;
+    background-color: #F6F6F6;
+    width: 1200px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 20px;
 }
 
 .housing-item {

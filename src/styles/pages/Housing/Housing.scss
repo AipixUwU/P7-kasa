@@ -1,0 +1,78 @@
+.housing-container {
+    margin: 10px 110px;
+}
+
+.housing-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.carrousel {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    img {
+        height: 415px;
+        width: 100%;
+        left: 0px;
+        top: 0px;
+        border-radius: 25px;
+        object-fit: cover;
+
+    }
+}
+
+.carrousel-controls {
+    position: absolute;
+
+    .previousImage {
+        position: absolute;
+        top: 180px;
+        right: 570px;
+        font-size: 50px;
+        color: white;
+    }
+
+    .nextImage {
+        position: absolute;
+        top: 180px;
+        left: 570px;
+        font-size: 50px;
+        color: white;
+    }
+}
+
+.house-title {
+    color: #FF6060;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.housing-location {
+    font-size: 18px;
+    font-weight: 500;
+    color: #FF6060;
+}
+
+.housing-tags {
+    display: flex;
+    margin-top: 25px;
+    gap: 10px;
+
+    .tag {
+        color: white;
+        background-color: #FF6060;
+        padding: 3px 30px;
+        border-radius: 10px;
+    }
+}
+
+.housing-profile {
+    
+    .profile-picture {
+        border-radius: 100%;
+        height: 64px;
+    }
+}

@@ -1,3 +1,7 @@
+.collapse-container {
+    min-height: calc(100vh - 480px);
+}
+
 .collapse {
     border-radius: 20px;
     margin: 0 200px 30px 200px;
