@@ -5,4 +5,5 @@ function Star({ isFilled }) {
         </svg>
     )
 }
+
 export default Star
