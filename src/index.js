@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import './styles/index.scss';
 import Header from './components/Header';
-import Home from './pages/Home/Home';
 import Footer from './components/Footer';
+import Home from './pages/Home/Home';
 import About from './pages/About/About';
 import Error404 from './pages/404/404';
+import Housing from './pages/Housing/Housing';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,10 +16,9 @@ root.render(
 			<Header />
 			<Routes>
 				<Route path="/" element={<Home />} />
+				<Route path="/housing/:id" element={<Housing />} />
+				<Route path="/about" element={<About />} />
 				<Route path="/*" element={<Error404 />} />
-				<Route path="/About" element={<About />} />
-				<Route path="/About" element={<About />} />
-
 			</Routes>
 			<Footer />
 		</Router>
