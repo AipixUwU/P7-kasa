@@ -7,8 +7,8 @@ function Collapse({ title, children }) {
             <div className="collapse-title">
                 <span>{title}</span>
                 <span onClick={() => setIsOpen(!isOpen)}>
-                    {isOpen ? <i class="fa-solid fa-chevron-up"></i>
-                        : <i class="fa-solid fa-chevron-down"></i>}
+                    {isOpen ? <i className="fa-solid fa-chevron-up"></i>
+                        : <i className="fa-solid fa-chevron-down"></i>}
                 </span>
             </div>
             <div className="collapse-description" style={{ display: isOpen ? '' : 'none' }}>

@@ -25,8 +25,10 @@ function Housing() {
                 </div>
 
                 <div className="housing-profile">
-                    <span className="profile-name"> {housing.host.name} </span>
-                    <img className="profile-picture" src={housing.host.picture} alt={housing.host.name} />
+                    <div className="housing-rating">
+                        <span className="profile-name"> {housing.host.name} </span>
+                        <img className="profile-picture" src={housing.host.picture} alt={housing.host.name} />
+                    </div>
                     <Rating rating={housing.rating} />
                 </div>
             </section>

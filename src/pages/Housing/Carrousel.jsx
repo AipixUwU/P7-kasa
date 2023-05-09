@@ -17,10 +17,8 @@ function Carrousel({ images, alt }) {
         <div className="carrousel">
             <img src={images[currentImageIndex]} alt={alt} />
             <div className="carrousel-controls">
-            <i class="fa-solid fa-chevron-left previousImage" onClick={goToPreviousImage}></i>
-                {/* <button className="previousImage" onClick={goToPreviousImage}>Précédent</button> */}
-                {/* <button className="nextImage" onClick={goToNextImage}>Suivant</button> */}
-                <i class="fa-solid fa-chevron-right nextImage" onClick={goToNextImage}></i>
+                <i className="fa-solid fa-chevron-left previousImage" onClick={goToPreviousImage}></i>
+                <i className="fa-solid fa-chevron-right nextImage" onClick={goToNextImage}></i>
             </div>
         </div>
     )

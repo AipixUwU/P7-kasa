@@ -12,6 +12,7 @@
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
+    position: relative;
 
     img {
         height: 415px;
@@ -24,25 +25,24 @@
     }
 }
 
-.carrousel-controls {
+.nextImage {
+    font-size: 50px;
+    color: white;
     position: absolute;
-
-    .previousImage {
-        position: absolute;
-        top: 180px;
-        right: 570px;
-        font-size: 50px;
-        color: white;
-    }
-
-    .nextImage {
-        position: absolute;
-        top: 180px;
-        left: 570px;
-        font-size: 50px;
-        color: white;
-    }
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
 }
+
+.previousImage {
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+
 
 .house-title {
     color: #FF6060;
@@ -70,9 +70,50 @@
 }
 
 .housing-profile {
-    
+
+    .housing-rating {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .profile-name {
+        color: #FF6060;
+        font-weight: 500;
+        width: 60px;
+    }
+
     .profile-picture {
         border-radius: 100%;
         height: 64px;
     }
+}
+
+.rating-content {
+    gap: 12px;
+    display: flex;
+    margin-top: 25px;
+}
+
+.housing-collapse {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    min-height: calc(100vh - 814px);
+
+    .collapse {
+        width: 49%;
+    }
+
+    p,
+    li {
+        font-size: 18px;
+    }
+
+
+}
+
+.housing-item-collapse {
+    width: 40%;
+
 }

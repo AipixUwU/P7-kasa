@@ -1,10 +1,11 @@
 .collapse-container {
     min-height: calc(100vh - 480px);
+    margin: 0 200px 0 200px;
 }
 
 .collapse {
     border-radius: 20px;
-    margin: 0 200px 30px 200px;
+    margin-bottom: 30px;
 }
 
 .collapse-title {
@@ -22,6 +23,4 @@
     font-size: 24px;
     color: #FF6060;
     border-radius: 5px;
-    
-    
 }
