@@ -1,0 +1,96 @@
+@media (max-width: 1230px) {
+
+    .housing-list {
+        max-width: 800px;
+    }
+}
+
+@media (max-width: 851px) {
+
+    .housing-item {
+        height: 300px;
+        width: 300px;
+    }
+
+    .text-overlay {
+        font-size: 34px;
+    }
+
+    .error {
+        .error404 {
+            font-size: 300px;
+        }
+
+        .error-text {
+            font-size: 30px;
+        }
+    }
+}
+
+@media (max-width: 750px) {
+
+    .housing-list {
+        background-color: initial;
+    }
+
+    .housing-item {
+        width: 500px;
+    }
+
+    .text-overlay {
+        font-size: 28px;
+    }
+
+    .bg-img {
+        height: 160px;
+    }
+}
+
+@media (max-width: 665px) {
+    header {
+        padding: 25px 50px 0 50px;
+    }
+
+    .nav-list {
+        gap: 15px
+    }
+
+    .banner-container {
+        padding: 0 50px 0 50px
+    }
+
+
+    .error {
+        .error404 {
+            font-size: 200px;
+        }
+
+        .error-text {
+            font-size: 24px;
+        }
+    }
+}
+
+@media (max-width: 497px) {
+
+    .text-overlay {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 424px) {
+
+    header {
+        padding: 25px 20px 0 20px;
+    }
+
+    .error {
+        .error404 {
+            font-size: 100px;
+        }
+
+        .error-text {
+            font-size: 20px;
+        }
+    }
+}
