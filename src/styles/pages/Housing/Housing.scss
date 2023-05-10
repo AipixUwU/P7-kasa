@@ -1,5 +1,5 @@
 .housing-container {
-    margin: 10px 110px;
+    margin: 10px 100px;
 }
 
 .housing-info {
@@ -43,6 +43,13 @@
     transform: translateY(-50%);
 }
 
+.image-counter {
+    position: absolute;
+    color:white;
+    font-weight: 500;
+    bottom: 5%;
+    left: 49.1%;}
+
 
 .house-title {
     color: #FF6060;
@@ -81,6 +88,7 @@
         color: #FF6060;
         font-weight: 500;
         width: 60px;
+        text-align: end;
     }
 
     .profile-picture {

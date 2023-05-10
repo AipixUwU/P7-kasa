@@ -3,9 +3,23 @@
     .housing-list {
         max-width: 800px;
     }
+
+    .housing-container {
+        margin: 10px 55px;
+    }
+
+    .house-title {
+
+        font-size: 33px;
+
+    }
 }
 
 @media (max-width: 851px) {
+
+    .collapse-container {
+        margin: 0 100px 0 100px;
+    }
 
     .housing-item {
         height: 300px;
@@ -25,6 +39,78 @@
             font-size: 30px;
         }
     }
+
+    .housing-container {
+        margin: 25px 15px;
+    }
+
+    .housing-info {
+        display: initial;
+    }
+
+    .house-title {
+        font-size: 25px;
+    }
+
+    .housing-location {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    .tag {
+        font-size: 14px;
+    }
+
+    .rating-content {
+        gap: 8px;
+        margin-top: inherit;
+
+        svg {
+            width: 17px;
+        }
+    }
+
+    .housing-profile {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 10px;
+
+        .profile-picture {
+            height: 50px;
+        }
+
+        .profile-name {
+            font-size: 13px;
+            margin-right: 10px;
+        }
+    }
+
+    .housing-collapse {
+        display: inherit;
+
+        p,
+        li {
+            font-size: 16px;
+        }
+
+        .collapse {
+            width: 100%;
+        }
+    }
+
+    .carrousel {
+        img {
+            height: 350px;
+        }
+    }
+
+    .housing-tags {
+        margin-top: 10px;
+        flex-wrap: wrap;
+    }
+
 }
 
 @media (max-width: 750px) {
@@ -44,6 +130,13 @@
     .bg-img {
         height: 160px;
     }
+
+    .collapse-description {
+        p {
+            font-size: 20px;
+        }
+    }
+
 }
 
 @media (max-width: 665px) {
@@ -59,6 +152,11 @@
         padding: 0 50px 0 50px
     }
 
+    .collapse-description {
+        p {
+            font-size: 19px;
+        }
+    }
 
     .error {
         .error404 {
@@ -76,9 +174,23 @@
     .text-overlay {
         font-size: 24px;
     }
+
+    .house-title {
+        font-size: 18px;
+    }
+
+    .collapse-container {
+        margin: 0 50px 0 50px;
+    }
+
+    .collapse-description {
+        p {
+            font-size: 18px;
+        }
+    }
 }
 
-@media (max-width: 424px) {
+@media (max-width: 426px) {
 
     header {
         padding: 25px 20px 0 20px;
@@ -88,7 +200,7 @@
         font-size: 19px;
     }
 
-    .bg-img{
+    .bg-img {
         height: 140px;
     }
 
@@ -100,5 +212,13 @@
         .error-text {
             font-size: 20px;
         }
+    }
+
+    .banner-container {
+        padding: 0 25px 0 25px
+    }
+
+    .housing-item {
+        margin: 10px;
     }
 }
