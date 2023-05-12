@@ -17,11 +17,15 @@ function Carrousel({ images, alt }) {
     return (
         <div className="carrousel">
             <img src={images[currentImageIndex]} alt={alt} />
-            <div className="carrousel-controls">
-                <i className="fa-solid fa-chevron-left previousImage" onClick={goToPreviousImage}></i>
-                <i className="fa-solid fa-chevron-right nextImage" onClick={goToNextImage}></i>
-                <span className='image-counter'>{currentImageIndex +1}/{lastImageIndex +1}</span>
-            </div>
+            {lastImageIndex > 0 &&
+                (
+                    <div className="carrousel-controls">
+                        <i className="fa-solid fa-chevron-left previousImage" onClick={goToPreviousImage}></i>
+                        <i className="fa-solid fa-chevron-right nextImage" onClick={goToNextImage}></i>
+                        <span className='image-counter'>{currentImageIndex + 1}/{lastImageIndex + 1}</span>
+                    </div>
+                )
+            }
         </div>
     )
 }
