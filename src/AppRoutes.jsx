@@ -13,6 +13,6 @@ function AppRoutes() {
             <Route path="/*" element={<Error404 />} />
         </Routes>
     )
-};
+}
 
 export default AppRoutes;

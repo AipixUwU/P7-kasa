@@ -11,7 +11,7 @@ function Housing() {
 
     return (
         <div className="housing-container">
-
+            
             <Carrousel images={housing.pictures} alt={housing.description} />
             <section className="housing-info">
                 <div className="housing-detail">
@@ -37,7 +37,6 @@ function Housing() {
                 <Collapse title="Équipements"><ul>{housing.equipments.map(equipment => <li key={equipment}>{equipment}</li>)}</ul></Collapse>
             </div>
         </div>
-
     )
 }
 

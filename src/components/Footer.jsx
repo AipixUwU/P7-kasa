@@ -1,7 +1,6 @@
 import Logo from '../images/LOGO.png'
 
 function Footer() {
-
     return (
         <footer className="footer">
             <div className="footer-container">
@@ -9,6 +8,7 @@ function Footer() {
                 <p className="text-center">© 2023 Kasa. All rights reserved</p>
             </div>
         </footer>
-)}
+    )
+}
 
 export default Footer;

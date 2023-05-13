@@ -9,12 +9,12 @@ header {
     display: flex;
     gap: 60px;
 
+    .active {
+        text-decoration: underline;
+    }
+
     .nav-link {
         color: #FF6060;
         font-weight: 500;
     }
 }
-
-    .nav-list .active {
-        text-decoration: underline; 
-    }

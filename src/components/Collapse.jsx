@@ -2,6 +2,7 @@ import { useState } from 'react'
 
 function Collapse({ title, children }) {
     const [isOpen, setIsOpen] = useState(false)
+
     return (
         <div className="collapse">
             <div className="collapse-title">

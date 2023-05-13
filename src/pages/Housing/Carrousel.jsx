@@ -13,7 +13,6 @@ function Carrousel({ images, alt }) {
         setCurrentImageIndex((currentIndex) => (currentIndex === 0 ? images.length - 1 : currentIndex - 1));
     }
 
-
     return (
         <div className="carrousel">
             <img src={images[currentImageIndex]} alt={alt} />
