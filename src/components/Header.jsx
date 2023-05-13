@@ -1,5 +1,5 @@
 import Logo from '../images/LOGO-1.png'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 function Header() {
     return (
@@ -9,8 +9,8 @@ function Header() {
             </div>
 
             <nav className="nav-list">
-                <Link className="nav-link" to="/">Accueil</Link>
-                <Link className="nav-link" to="/About">A Propos</Link>
+                <NavLink className="nav-link" to="/">Accueil</NavLink>
+                <NavLink className="nav-link" to="/About">A Propos</NavLink>
             </nav>
         </header >
     )
