@@ -4,10 +4,15 @@ import Tag from "./Tag"
 import Rating from "./Rating"
 import Carrousel from "./Carrousel";
 import Collapse from "../../components/Collapse";
+import Error404 from "../404/404";
 
 function Housing() {
     let { id } = useParams();
     const housing = data.find(house => house.id === id);
+
+    if (!housing) {
+        return <Error404/>;
+    }
 
     return (
         <div className="housing-container">
